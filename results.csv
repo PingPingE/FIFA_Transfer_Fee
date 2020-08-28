@@ -3,9 +3,19 @@ LGBM,2,1898211.99
 LGBM,3,1545629.54
 RF,3,1514485.74
 "RF(resamp),stat_skill만 smoteenn",3,1637743.34
-"lgbm(resamp),stat_skill:smoteenn+reput:random(class 0만 20%)",3,1577571.56
+"LGBM(resamp),stat_skill:smoteenn+reput:random(class 0만 20%)",3,1577571.56
 "RF(resamp),stat_skill:smoteenn+reput:random(class 0만 20%)",3,1663520.51
 "Ridge(resamp),stat_skill:smoteenn+reput:random(class 0만 20%)",3,2609684.7
 모든 결과 mean(),3,1398775.79
-lgbm(all pca),4,3870976.2
-rf(all pca),4,3721113.34
+LGBM(all pca),4,3870976.2
+RF(all pca),4,3721113.34
+RF,5,1641629.27
+LGBM,5,1500471.37
+"LGBM(alpha=0.001, bagging_fraction=1.0, feature_fraction=0.5)",5,1785586.42
+"LGBM(alpha=0.001, bagging_fraction=1.0, feature_fraction=1.0,learning_rate=0.05, num_iterations=1000) ",5,1529130.34
+10~13.mean(),5,1545485.11
+GB,5,1332950.67
+"GB(learning_rate=0.05, max_depth=4, random_state=10)",5,2251474.69
+"GB(learning_rate=0.15, max_depth=5, random_state=10)",5,1258182.53
+"GB(max_depth=5, n_estimators= 1000)",5,1364136.57
+"GB(learning_rate=0.3, n_estimators=2000)",5,1344690.47

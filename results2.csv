@@ -1,0 +1,10 @@
+model,preprocessing_steps,result
+"GB(learning_rate=0.15, max_depth=5, random_state=10) / log",3,1032358.86
+"LGBM(num_iterations=1000, learning_rate= 0.1, num_leaves =100) / log",3,1122867.78
+LGBM() / log,3,1237974.94
+RF() / log,3,1283164.9
+"LGBMRegressor(boosting_type= dart, reg_alpha= 0, reg_lambda= 2, is_unbalance= True,min_split_gain= 0, colsample_bytree= 0.8, subsample_freq= 3, subsample_for_bin= 50000)/ log",3,6869292.4
+"LGBM(reg_alpha= 0.3,metric=rmse,learning_rate=0.2,num_iteration=500)/ log",3,1251582.66
+"GB(learning_rate=0.15, max_depth=5, random_state=10)/log/resamp",3,853212.18
+"GB(learning_rate=0.15, max_depth=5, random_state=10)/log/resamp(0.7)",3,1711285.15
+"GB(learning_rate=0.15, max_depth=5, random_state=10)/log/resamp(rep<1, value<0.5, 0.4)",3,1229272.12
