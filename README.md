@@ -2,8 +2,8 @@
 
 *만약 위 파일의 로딩에 실패한다면
 
-- [FIFA_version1](https://nbviewer.jupyter.org/github/PingPingE/FIFA_Transfer_Fee/blob/master/FIFA_v1.ipynb")
-- [FIFA_version2](https://nbviewer.jupyter.org/github/PingPingE/FIFA_Transfer_Fee/blob/master/FIFA_v2.ipynb")
+- [FIFA_version1](https://nbviewer.jupyter.org/github/PingPingE/FIFA_Transfer_Fee/blob/master/FIFA_v1.ipynb)
+- [FIFA_version2](https://nbviewer.jupyter.org/github/PingPingE/FIFA_Transfer_Fee/blob/master/FIFA_v2.ipynb)
 
 ## 목적 및 목표
 현재 선수를 매각 혹은 영입하려는 구단은, 구단 내 스카우터를 파견합니다. <br>
